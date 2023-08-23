@@ -1,9 +1,8 @@
-// Example usage
-import { getCurrentStock } from './main';
+import { getCurrentStock } from './container/main';
 
 async function main() {
     try {
-        const sku = 'MRP846986/84/16';
+        const sku = 'CLQ274846/07/46';
         const result = await getCurrentStock(sku);
         console.log(`Current stock for SKU ${result.sku}: ${result.qty}`);
     } catch (error: any) {

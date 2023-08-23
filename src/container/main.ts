@@ -1,10 +1,9 @@
-// src/main.ts
 import { readFileSync } from 'fs';
 import { calculateStock } from './stockCalculator';
-import { Stock, Transaction } from './types';
+import { Stock, Transaction } from '../customTypes/types';
 
-const stockJson = readFileSync('src/stock.json', 'utf-8');
-const transactionsJson = readFileSync('src/transactions.json', 'utf-8');
+const stockJson = readFileSync('src/data/stock.json', 'utf-8');
+const transactionsJson = readFileSync('src/data/transactions.json', 'utf-8');
 
 const stock: Stock[] = JSON.parse(stockJson);
 const transactions: Transaction[] = JSON.parse(transactionsJson);

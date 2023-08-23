@@ -1,5 +1,5 @@
 // __tests__/main.test.ts
-import { getCurrentStock } from '../src/main';
+import { getCurrentStock } from '../src/container/main';
 
 describe('getCurrentStock', () => {
     it('should return the correct current stock for an existing SKU', async () => {

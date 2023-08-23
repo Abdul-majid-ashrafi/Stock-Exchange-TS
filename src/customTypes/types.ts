@@ -1,4 +1,3 @@
-// src/types.ts
 export interface Stock {
     sku: string;
     stock: number;

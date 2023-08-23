@@ -1,5 +1,4 @@
-// src/stockCalculator.ts
-import { Stock, Transaction } from './types';
+import { Stock, Transaction } from '../customTypes/types';
 
 export function calculateStock(stock: Stock[], transactions: Transaction[]): Record<string, number> {
   let stockInLoss: boolean = false;

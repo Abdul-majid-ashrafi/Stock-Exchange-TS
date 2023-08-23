@@ -4,4 +4,4 @@
 npm start
 
 ## run test cases
-npm run test
+npm run test 
