@@ -1,4 +1,4 @@
-import { Stock, Transaction } from '../types/types';
+import { Stock, Transaction } from './types/types';
 
 export function calculateStock(stock: Stock[], transactions: Transaction[]): Record<string, number> {
   let stockInLoss: boolean = false;

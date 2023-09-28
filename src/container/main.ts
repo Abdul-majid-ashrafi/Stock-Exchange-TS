@@ -1,6 +1,6 @@
 import { readFileSync } from 'fs';
 import { calculateStock } from './stockCalculator';
-import { Stock, Transaction } from '../types/types';
+import { Stock, Transaction } from './types/types';
 
 const stockJson = readFileSync('src/data/stock.json', 'utf-8');
 const transactionsJson = readFileSync('src/data/transactions.json', 'utf-8');
